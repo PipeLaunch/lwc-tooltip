@@ -1,0 +1,22 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Push Source to Org",
+			"type": "shell",
+			"command": "sf deploy project start --ignore-conflicts",
+			"group": "build",
+			"detail": "Push Source to Org",
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated",
+				"clear": true,
+				"focus": false,
+				"showReuseMessage": true
+			},
+			"problemMatcher": []
+		}
+	]
+}

@@ -1,0 +1,41 @@
+.tooltip-text-small {
+  min-width: 8rem;
+}
+
+.tooltip-text-large {
+  width: 60ch;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container .tooltip {
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  z-index: 99;
+  bottom: 120%;
+
+  transition: opacity 0.5s ease-in;
+}
+
+.tooltip-align-right {
+  right: -20%;
+}
+
+.tooltip-align-left {
+  left: -10%;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip>span {
+  display: block;
+  word-wrap: break-word;
+}

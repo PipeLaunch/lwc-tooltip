@@ -1,0 +1,28 @@
+<template>
+    <section class="slds-grid slds-wrap slds-gutters">
+        <div class="slds-col slds-size_1-of-1 slds-var-m-bottom_medium">
+            <lightning-card title="Samples">
+                <div class="slds-var-p-horizontal_medium
+                    slds-var-p-vertical_small">
+
+                    <div class="slds-grid slds-grid_align-spread">
+                        <c-lwc-tooltip content="Hello world!" align="top-left">
+                            <lightning-button label="Left align"></lightning-button>
+                        </c-lwc-tooltip>
+
+                        <c-lwc-tooltip
+                            content="Founded by Salesforce veterans, PipeLaunch gives your sales teams the ... PipeLaunch empowers businesses to generate more revenue while saving time and costs.">
+                            <span>Hover me</span>
+                        </c-lwc-tooltip>
+
+                        <c-lwc-tooltip content="User Settings">
+                            <lightning-button-icon icon-name="utility:settings" alternative-text="Settings">
+                                <label class="slds-assistive-text">Settings</label>
+                            </lightning-button-icon>
+                        </c-lwc-tooltip>
+                    </div>
+                </div>
+            </lightning-card>
+        </div>
+    </section>
+</template>

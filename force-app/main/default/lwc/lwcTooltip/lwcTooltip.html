@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-is-relative tooltip-container">
+        <div class={computeTooltipTextClasses} style={computeTooltipTextStyles} role="tooltip" id="help">
+            <span class="slds-popover__body">{content}</span>
+        </div>
+
+        <div class="hover">
+            <slot></slot>
+        </div>
+    </div>
+</template>
