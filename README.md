@@ -1,4 +1,4 @@
-# LWC Tooltip (ALPHA)
+# LWC Tooltip (BETA)
 
 ![sample](sample.png "sample")
 
@@ -24,7 +24,7 @@ Everything was developed in a single LWC, so you just need a new single componen
 -   Call the component and pass the options
 
 ```html
-</c-lwc-tooltip content="User settings">
+<c-lwc-tooltip content="User settings">
     <lightning-button-icon icon-name="utility:settings" alternative-text="Settings" title="Settings"></lightning-button-icon>
 </c-lwc-tooltip>
 ```

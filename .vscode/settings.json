@@ -2,10 +2,6 @@
     "editor.formatOnSave": true,
     "cSpell.words": [
         "helptext",
-        "onslotvaluechange",
-        "recordtypeselected",
-        "recordtypeselection",
-        "slotvaluechange"
     ],
     "files.exclude": {
         "**/.git": true,

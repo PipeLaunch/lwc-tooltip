@@ -2,7 +2,7 @@
   "orgName": "PipeLaunch GmbH",
   "edition": "Developer",
   "language": "en_US",
-  "hasSampleData": true,
+  "hasSampleData": false,
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
